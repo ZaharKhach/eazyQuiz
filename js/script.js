@@ -125,6 +125,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	}
 
 	function showResults() {
+		buttonSubmit.blur();
 
 		const resultsWrapper = 
 		`<h2 class="title">%title%</h2>
@@ -150,7 +151,10 @@ window.addEventListener('DOMContentLoaded', () => {
 		              						.replace('%title%', title)
 											.replace('%message%', message)
 											.replace('%result%', result);
-		headerContainer.innerHTML = finalWrapper
+		headerContainer.innerHTML = finalWrapper;
+
+		buttonSubmit.textContent = 'Играть снова';
+		buttonSubmit.onclick = () => history.go()
 	}
 
 });
