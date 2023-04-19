@@ -3,34 +3,39 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	const questions = [
 		{
-			question: "Какой язык работает в браузере?",
-			answers: ["Java", "C", "Python", "JavaScript"],
+			question: "Як мене звати?",
+			answers: ["Віктор", "Ахілес", "Віталік", "Захар"],
 			correct: 4,
 		},
 		{
-			question: "Что означает CSS?",
+			question: "Ким я мріяв стати у дитинстві?",
 			answers: [
-				"Central Style Sheets",
-				"Cascading Style Sheets",
-				"Cascading Simple Sheets",
-				"Cars SUVs Sailboats",
-			],
-			correct: 2,
-		},
-		{
-			question: "Что означает HTML?",
-			answers: [
-				"Hypertext Markup Language",
-				"Hypertext Markdown Language",
-				"Hyperloop Machine Language",
-				"Helicopters Terminals Motorboats Lamborginis",
+				"Королем Піратів",
+				"Людиною-павуком",
+				"Самураєм",
+				"Водієм",
 			],
 			correct: 1,
 		},
 		{
-			question: "В каком году был создан JavaScript?",
-			answers: ["1996", "1995", "1994", "все ответы неверные"],
-			correct: 2,
+			question: "Як звати мого батька?",
+			answers: [
+				"WARHAMMER TOTAL WAR",
+				"Abyssal Blade",
+				"Валера",
+				"Mercedes-Benz",
+			],
+			correct: 3,
+		},
+		{
+			question: "На кого я вчусь?",
+			answers: [
+				"На Пілота",
+				"На Кіберспортсмена",
+				"На Программіста",
+				"На Mercedes-Benz",
+			],
+			correct: 4,
 		},
 	];
 
